@@ -1,0 +1,23 @@
+n=int(input())
+l=[]
+t=[]
+for i in range(n):
+    x=int(input())
+    l.append(x)
+
+count=0
+for i in range(n):
+    if l[i]!=0:
+        t.append(l[i])
+        count=count+1      
+print("count:",count)
+print("non zero list:",t)
+
+OUTPUT:
+4
+1
+0
+2
+0
+count: 2
+non zero list: [1, 2]
